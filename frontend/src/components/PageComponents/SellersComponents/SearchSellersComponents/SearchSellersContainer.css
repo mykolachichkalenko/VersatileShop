@@ -1,0 +1,9 @@
+.searchSellersSearchContainer{
+    width: 1500px;
+}
+
+@media (max-width: 1550px) {
+    .searchSellersSearchContainer{
+        width: 96%;
+    }
+}

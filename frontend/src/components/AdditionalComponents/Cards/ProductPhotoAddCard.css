@@ -1,0 +1,75 @@
+.uploadBox {
+    max-width: 500px;
+    max-height: 500px;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.uploadInput {
+    display: none;
+}
+
+.uploadLabel {
+    width: 90%;
+    height: 90%;
+    border-radius: 26px;
+    border: 2px dashed rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: border-color 0.2s ease, background-color 0.2s ease;
+    position: relative;      /* щоб хрестик позиціонувався всередині */
+    overflow: hidden;
+}
+
+.uploadLabel:hover {
+    border-color: #0d6efd;
+    background-color: rgba(255, 255, 255, 0.04);
+}
+
+.uploadContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    color: #4a4a4a;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* прев’ю фото */
+.uploadImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+/* хрестик */
+.uploadCloseBtn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 24px;
+    height: 24px;
+    border-radius: 9999px;
+    border: none;
+    background: rgba(0,0,0,0.65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0;
+}
+
+.uploadCloseIcon {
+    width: 14px;
+    height: 14px;
+    color: #fff;
+}

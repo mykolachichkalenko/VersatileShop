@@ -1,0 +1,22 @@
+.mainPageContainer{
+    position: relative;
+    top: 0;
+    width: 70%;
+    height: 92vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainPageContainer::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+@media (max-width: 2170px) {
+    .mainPageContainer{
+        width: 100%;
+    }
+}

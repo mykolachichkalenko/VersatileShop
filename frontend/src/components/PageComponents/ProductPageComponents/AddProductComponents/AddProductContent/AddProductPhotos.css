@@ -1,0 +1,7 @@
+.addProductPhotos{
+    width: 100%;
+}
+
+.addProductPhotosContainer{
+    display: flex;
+}

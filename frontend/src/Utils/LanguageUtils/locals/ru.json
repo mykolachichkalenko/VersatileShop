@@ -1,0 +1,165 @@
+{
+  "myProfile": {
+    "products": "Товары",
+    "favorites": "Избранное",
+    "department": "Моё отделение",
+    "rating" : "Рейтинг",
+    "search_sellers" : "Поиск продавцов",
+    "chat": "Чаты",
+    "changePhotoTitle": "Изменить фото профиля",
+    "changeNameTitle": "Изменить имя",
+    "changeDepartment": "Изменить отделение",
+    "selectPhoto": "Выберите фото",
+    "cancelButton": "Отменить",
+    "agreeButton": "Подтвердить",
+    "saveButton": "Сохранить",
+    "allowedFormats": "Разрешены форматы только (jpg, jpeg, png, webp) и макс. размер 2MB",
+    "myDepartment": "Отделение",
+    "city": "Город",
+    "logoutTitle": "Вы уверены, что хотите выйти из системы?"
+  },
+  "myProducts": {
+    "title": "Мои товары",
+    "products": "товаров",
+    "notFound": "Не найдено",
+    "conditionNew": "Новый",
+    "conditionUsed": "Б/у",
+    "deleteProductTitle": "Вы действительно хотите удалить этот товар?"
+  },
+  "addProduct": {
+    "title": "Добавить товар",
+    "photoText": "Фото товара (до 3)",
+    "addText": "Добавить",
+    "firstPhotoText": "Первое фото — обложка товара (обязательно)",
+    "productTitleLabel": "Название",
+    "productTitlePlaceholder": "Название товара",
+    "productDescriptionLabel": "Описание",
+    "productDescriptionPlaceholder": "Описание товара",
+    "productPriceLabel": "Цена",
+    "productPricePlaceholder": "Цена товара",
+    "productConditionLabel": "Состояние",
+    "productConditionNew" : "Новый",
+    "productConditionUsed": "Б/у",
+    "addButton": "Добавить товар",
+    "productAddingText": "Продукт добавляеться"
+  },
+  "editProduct": {
+    "title": "Изменить товар",
+    "buttonTitle":"Изменить"
+  },
+  "Statuses": {
+    "PCSText": "Товар был успешно добавлен!",
+    "PCEText": "Товар не был добавлен!",
+    "PDSText": "Товар был удален!",
+    "PDEText": "Товар не был удален!",
+    "PESText": "Товар был изменён!",
+    "PEEText": "Товар не был изменён!"
+  },
+  "mainPage": {
+    "searchPlaceholder": "Поиск...",
+    "recommendationsTitle": "Продукты для вас",
+    "notFound": "Ничего не найдено"
+  },
+  "productPage": {
+    "title": "Товар",
+    "notFound": "Товар не найден",
+    "condition": {
+      "new": "Новый",
+      "used": "Б/у"
+    },
+    "description": "Описание",
+    "seller": "Продавец",
+    "online": "онлайн",
+    "offline": "офлайн",
+    "viewReviews": "Посмотреть отзывы"
+  },
+  "myFavoriteProducts": {
+    "title": "Ваши избранные товары",
+    "notFound": "Не найдено ни одного товара"
+  },
+  "searchPage": {
+    "title": "Результаты поиска",
+    "filters": "Фильтры",
+    "condition": "Состояние",
+    "all": "Все",
+    "new": "Новый",
+    "used": "Б/у",
+    "price": "Цена",
+    "priceFrom": "От",
+    "priceTo": "До",
+    "vector": "Сходство товаров",
+    "vectorFindLowSimilarity": "Найти товары с низким сходством",
+    "vectorFindMediumSimilarity": "Найти товары со средним сходством",
+    "vectorFindHighSimilarity": "Найти товары с высоким сходством",
+    "showAll": "Показать все продукты",
+    "showNew": "Показать новейшие продукты"
+  },
+  "review": {
+    "product": {
+      "header": "Отзывы о товаре",
+      "totalReviewsBased": "Основано на ",
+      "reviews": " отзывах",
+      "leaveReview": "Оставить отзыв",
+      "notFound": "Отзывы не найдены"
+    }
+  },
+  "timer": {
+    "yearAgo": "год назад",
+    "yearsAgo": "года назад",
+    "monthAgo": "месяц назад",
+    "monthsAgo": "месяцев назад",
+    "weekAgo": "неделю назад",
+    "weeksAgo": "недель назад",
+    "dayAgo": "день назад",
+    "daysAgo": "дней назад",
+    "hourAgo": "час назад",
+    "hoursAgo": "часов назад",
+    "minuteAgo": "минуту назад",
+    "minutesAgo": "минут назад",
+    "justNow": "только что"
+  },
+  "userPage": {
+    "header": "Страница Пользователя",
+    "userProducts": "Товары пользователя",
+    "blockUserTitle": "Вы уверены, что хотите заблокировать этого пользователя?",
+    "unBlockUserTitle": "Вы уверены, что хотите разблокировать этого пользователя?",
+    "agreeButton": "Подтвердить",
+    "cancelButton": "Отменить"
+  },
+  "userPageReviews": {
+    "headerTitle": "Отзывы пользователя"
+  },
+  "sellersSearchPage": {
+    "title": "Поиск продавцов",
+    "searchPlaceholder": "Поиск по email"
+  },
+  "chatWithUserPage": {
+    "titleNotFound" : "Не найдено",
+    "online": "онлайн",
+    "offline": "офлайн",
+    "typeMessage": "Введите сообщение...",
+    "userBlockedYou": "Пользователь заблокировал вас",
+    "youBlockedUser": "Вы заблокировали этого пользователя",
+    "unBlockUserTitle": "Разблокировать",
+    "typing": "печатает..."
+  },
+  "chatsPage": {
+    "title": "Чаты",
+    "notFound": "Чатов не найдено"
+  },
+  "reportComponent": {
+    "title": "Создать жалобу",
+    "reason" : "Введите причину",
+    "send": "Отправить"
+  },
+  "aiCreateProduct": {
+    "descriptionPart1": "Пожалуйста, укажите в описании товара следующие параметры: ",
+    "descriptionPart2": "цена,название,состояние,URL картинок (не обязательно).",
+    "descriptionPart3": "Напишите что-то о товаре, чтобы ИИ смог сгенерировать наиболее похожий по вашим параметрам товар.",
+    "placeholder": "Опишите товар...",
+    "generateButton": "Создать",
+    "generatingText": "Создание товара...",
+    "seeProduct": "Вы сможете увидеть товар в разделе 'Мои товары'",
+    "view": "Посмотреть"
+  }
+}

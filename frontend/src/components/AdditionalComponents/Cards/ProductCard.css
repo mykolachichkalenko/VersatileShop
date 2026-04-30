@@ -1,0 +1,83 @@
+.ProductCard {
+    width: 400px;
+    height: 460px;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    content-visibility: auto;
+    cursor: pointer;
+}
+.ProductCardImgContainer {
+    width: 400px;
+    height: 350px;
+    background-color: #eeeeee;
+    border-radius: 15px 15px 0px 0px;
+    overflow: hidden;
+}
+
+.ProductCardImgContainer img {
+    width: 400px;
+    height: 350px;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+    transition: ease-in-out;
+}
+
+.ProductCardTitle {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 15px 0px 15px;
+    word-break: break-all;
+}
+
+.ProductCardPrice {
+    color: #2664c3;
+    font-weight: bold;
+    font-size: 22px;
+    padding-left: 15px;
+}
+
+
+.ProductCardConditionNew{
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 500;
+    background-color: rgba(34, 197, 94, 0.9);
+    color: #ffffff;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.ProductCardConditionUsed{
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 500;
+    background-color: rgba(59, 130, 246, 0.9);
+    color: #ffffff;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+@media (max-width: 420px) {
+    .ProductCard{
+        width: 310px;
+    }
+    .ProductCardImgContainer{
+        width: 310px;
+    }
+    .ProductCardImgContainer img{
+        width: 310px;
+    }
+}

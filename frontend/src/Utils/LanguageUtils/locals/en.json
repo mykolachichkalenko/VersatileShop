@@ -1,0 +1,165 @@
+{
+  "myProfile": {
+    "products": "Products",
+    "favorites": "Favorites",
+    "department": "My department",
+    "rating": "Rating",
+    "search_sellers": "Search sellers",
+    "chat": "Chats",
+    "changePhotoTitle": "Change Profile Photo",
+    "changeNameTitle": "Change Name",
+    "changeDepartment": "Change Department",
+    "selectPhoto": "Select Photo",
+    "cancelButton": "Cancel",
+    "agreeButton": "Agree",
+    "saveButton": "Save",
+    "allowedFormats": "Allowed only formats (jpg, jpeg, png, webp) and max size 2MB",
+    "myDepartment": "Department",
+    "city": "City",
+    "logoutTitle": "Are you sure you want to log out?"
+  },
+  "myProducts": {
+    "title": "My products",
+    "products": "products",
+    "notFound": "Not found",
+    "conditionNew": "New",
+    "conditionUsed": "Used",
+    "deleteProductTitle": "Do you really want to delete this product?"
+  },
+  "addProduct": {
+    "title": "Add product",
+    "photoText": "Product photos (up to 3)",
+    "addText": "Add",
+    "firstPhotoText": "First photo – product cover (required)",
+    "productTitleLabel": "Title",
+    "productTitlePlaceholder": "Product title",
+    "productDescriptionLabel": "Description",
+    "productDescriptionPlaceholder": "Product description",
+    "productPriceLabel": "Price",
+    "productPricePlaceholder": "Product price",
+    "productConditionLabel": "Condition",
+    "productConditionNew": "New",
+    "productConditionUsed": "Used",
+    "addButton": "Add Product",
+    "productAddingText": "Adding product"
+  },
+  "editProduct": {
+    "title": "Edit Product",
+    "buttonTitle": "Edit"
+  },
+  "Statuses": {
+    "PCSText": "Product successfully was created!",
+    "PCEText": "Product wasn't created!",
+    "PDSText": "Product was deleted!",
+    "PDEText": "Product wasn't deleted!",
+    "PESText": "Product was edited!",
+    "PEEText": "Product wasn't edited!"
+  },
+  "mainPage": {
+    "searchPlaceholder": "Search...",
+    "recommendationsTitle": "Products for you",
+    "notFound": "No products found"
+  },
+  "productPage": {
+    "title": "Product",
+    "notFound": "Product not found",
+    "condition": {
+      "new": "New",
+      "used": "Used"
+    },
+    "description": "Description",
+    "seller": "Seller",
+    "online": "online",
+    "offline": "offline",
+    "viewReviews": "View reviews"
+  },
+  "myFavoriteProducts": {
+    "title": "Your favorite products",
+    "notFound": "No any products found"
+  },
+  "searchPage": {
+    "title": "Search results",
+    "filters": "Filters",
+    "condition": "Condition",
+    "all": "All",
+    "new": "New",
+    "used": "Used",
+    "price": "Price",
+    "priceFrom": "From",
+    "priceTo": "To",
+    "vector": "Products similarity",
+    "vectorFindLowSimilarity": "Find products with low similarity",
+    "vectorFindMediumSimilarity": "Find products with average similarity",
+    "vectorFindHighSimilarity": "Find products with high similarity",
+    "showAll": "Show all products",
+    "showNew": "Show only new products"
+  },
+  "review": {
+    "product": {
+      "header": "Product Reviews",
+      "totalReviewsBased": "Based on ",
+      "reviews": " reviews",
+      "leaveReview": "Leave a review",
+      "notFound": "No reviews found"
+    }
+  },
+  "timer": {
+    "yearAgo": "year ago",
+    "yearsAgo": "years ago",
+    "monthAgo": "month ago",
+    "monthsAgo": "months ago",
+    "weekAgo": "week ago",
+    "weeksAgo": "weeks ago",
+    "dayAgo": "day ago",
+    "daysAgo": "days ago",
+    "hourAgo": "hour ago",
+    "hoursAgo": "hours ago",
+    "minuteAgo": "minute ago",
+    "minutesAgo": "minutes ago",
+    "justNow": "just now"
+  },
+  "userPage": {
+    "header": "User Page",
+    "userProducts": "User's products",
+    "blockUserTitle": "Are you sure you want to block this user?",
+    "unBlockUserTitle": "Are you sure you want to unblock this user?",
+    "agreeButton": "Confirm",
+    "cancelButton": "Cancel"
+  },
+  "userPageReviews": {
+    "headerTitle": "User Reviews"
+  },
+  "sellersSearchPage": {
+    "title": "Search sellers",
+    "searchPlaceholder": "Search by email"
+  },
+  "chatWithUserPage": {
+    "titleNotFound" : "Not found",
+    "online": "online",
+    "offline": "offline",
+    "typeMessage": "Type a message...",
+    "userBlockedYou": "User blocked you",
+    "youBlockedUser": "You blocked this user",
+    "unBlockUserTitle": "Unblock",
+    "typing": "typing..."
+  },
+  "chatsPage": {
+    "title": "Chats",
+    "notFound": "No chats found"
+  },
+  "reportComponent": {
+    "title": "Create Report",
+    "reason" : "Enter the reason",
+    "send": "Send"
+  },
+  "aiCreateProduct": {
+    "descriptionPart1": "Please specify the following parameters in the product description:",
+    "descriptionPart2": "price, name, condition, image URL (optional).",
+    "descriptionPart3": "Write something about the product so that AI can generate the most similar product according to your parameters",
+    "placeholder": "Describe the product...",
+    "generateButton": "Generate",
+    "generatingText": "Generating product...",
+    "seeProduct": "You will be able to see the product in the 'My products' section",
+    "view": "View"
+  }
+}

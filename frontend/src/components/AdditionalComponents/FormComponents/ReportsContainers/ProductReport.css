@@ -1,0 +1,25 @@
+.productReportContainer{
+    position: fixed;
+    background: rgba(0, 0, 0, 0.1);
+    width: 100vw;
+    height: 100vh;
+    left: 0%;
+    top: 0%;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productReportContent{
+    width: 310px;
+    height: 200px;
+    background: rgba(236, 233, 233, 0.87);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1000;
+    position: relative;
+}

@@ -1,0 +1,10 @@
+.editProduct{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 92vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    overflow-x: hidden;
+}

@@ -1,0 +1,19 @@
+.myFavoriteProductsContainer{
+    width: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    min-height: 90vh;
+}
+.myFavoriteProductsContainer::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+@media (max-width: 1520px) {
+    .myFavoriteProductsContainer{
+        width: 98%;
+    }
+}

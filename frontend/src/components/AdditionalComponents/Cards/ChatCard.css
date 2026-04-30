@@ -1,0 +1,14 @@
+.chatCardContainer{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.chatCardContainer:hover{
+    transition-duration: 0.3s;
+    background: rgba(255, 255, 255, 0.51);
+}

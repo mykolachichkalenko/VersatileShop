@@ -1,0 +1,36 @@
+.mainPageProductsContainer{
+    position: relative;
+    top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    overflow-x: hidden;
+    max-width: 1400px;
+}
+
+.mainPageProductsContainer::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+@media (max-width: 1300px) {
+    .mainPageProductsContainer{
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 900px;
+    }
+}
+
+@media (max-width: 880px) {
+    .mainPageProductsContainer{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+

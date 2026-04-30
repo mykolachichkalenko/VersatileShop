@@ -1,0 +1,104 @@
+.customSearchDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.customSearch__inputWithoutAdaptive{
+    font-family: inherit;
+    font-size: inherit;
+    background-color: #f4f2f2;
+    border: none;
+    color: #646464;
+    padding: 0.7rem 1rem;
+    border-radius: 30px;
+    width: 100%;
+    transition: all ease-in-out .5s;
+    margin-right: -2rem;
+}
+
+.customSearch__inputWithoutAdaptive:hover, .customSearch__input:focus {
+    box-shadow: 0 0 1em #00000013;
+}
+
+.customSearch__inputWithoutAdaptive:focus {
+    outline: none;
+    background-color: #f0eeee;
+}
+
+.customSearch__inputWithoutAdaptive::-webkit-input-placeholder {
+    font-weight: 100;
+    color: #ccc;
+}
+
+.customSearch__inputWithoutAdaptive:focus + .customSearch__button {
+    background-color: #f0eeee;
+}
+
+
+.customSearch__input {
+    font-family: inherit;
+    font-size: inherit;
+    background-color: #f4f2f2;
+    border: none;
+    color: #646464;
+    padding: 0.7rem 1rem;
+    border-radius: 30px;
+    width: 1500px;
+    transition: all ease-in-out .5s;
+    margin-right: -2rem;
+}
+@media (max-width: 1550px) {
+    .customSearch__input{
+        width: 1200px;
+    }
+}
+@media (max-width: 1250px) {
+    .customSearch__input{
+        width: 900px;
+    }
+}
+@media (max-width: 950px) {
+    .customSearch__input{
+        width: 600px;
+    }
+}
+@media (max-width: 650px) {
+    .customSearch__input{
+        width: 300px;
+    }
+}
+.customSearch__input:hover, .customSearch__input:focus {
+    box-shadow: 0 0 1em #00000013;
+}
+
+.customSearch__input:focus {
+    outline: none;
+    background-color: #f0eeee;
+}
+
+.customSearch__input::-webkit-input-placeholder {
+    font-weight: 100;
+    color: #ccc;
+}
+
+.customSearch__input:focus + .customSearch__button {
+    background-color: #f0eeee;
+}
+
+.customSearch__button {
+    border: none;
+    background-color: #f4f2f2;
+    margin-top: .1em;
+}
+
+.customSearch__button:hover {
+    cursor: pointer;
+}
+
+.customSearch__icon {
+    height: 1.3em;
+    width: 1.3em;
+    fill: #b4b4b4;
+}

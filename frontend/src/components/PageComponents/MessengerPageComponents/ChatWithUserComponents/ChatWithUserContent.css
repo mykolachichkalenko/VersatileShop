@@ -1,0 +1,42 @@
+.chatWithUserContent{
+    margin-top: 50px;
+    height: 80vh;
+    width: 1200px;
+}
+
+@media (max-width: 1300px) {
+    .chatWithUserContent{
+        width: 98%;
+    }
+}
+@media (max-height: 1140px) {
+    .chatWithUserContent{
+        height: 75vh;
+    }
+}
+
+@media (max-height: 930px) {
+    .chatWithUserContent{
+        height: 70vh;
+    }
+}
+
+@media (max-height: 770px) {
+    .chatWithUserContent{
+        margin-top: 20px;
+        height: 70vh;
+    }
+}
+
+@media (max-height: 650px) {
+    .chatWithUserContent{
+        height: 65vh;
+    }
+}
+
+
+@media (max-height: 500px) {
+    .chatWithUserContent{
+        height: 60vh;
+    }
+}

@@ -1,0 +1,12 @@
+.productByIDContent{
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@media (max-width: 1520px) {
+    .productByIDContent{
+        width: 96%;
+    }
+}

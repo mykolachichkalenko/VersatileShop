@@ -1,0 +1,47 @@
+
+.productReviewsAddMyReviewContainer {
+    width: 900px;
+    height: 150px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid rgba(229, 231, 235, 0.7);
+    padding: 12px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.productReviewsAddMyReviewInputContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 870px;
+}
+
+@media (max-width: 950px) {
+    .productReviewsAddMyReviewContainer{
+        width: 700px;
+    }
+    .productReviewsAddMyReviewInputContainer {
+        width: 650px;
+    }
+}
+
+@media (max-width: 750px) {
+    .productReviewsAddMyReviewContainer{
+        width: 550px;
+    }
+    .productReviewsAddMyReviewInputContainer{
+        width: 500px;
+    }
+}
+
+@media (max-width: 570px) {
+    .productReviewsAddMyReviewContainer{
+        width: 300px;
+    }
+    .productReviewsAddMyReviewInputContainer{
+        width: 250px;
+    }
+}

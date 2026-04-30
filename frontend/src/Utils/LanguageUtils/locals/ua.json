@@ -1,0 +1,165 @@
+{
+  "myProfile": {
+    "products": "Товари",
+    "favorites": "Улюблені",
+    "department": "Моє відділення",
+    "rating" : "Рейтинг",
+    "search_sellers" : "Пошук продавців",
+    "chat": "Чати",
+    "changePhotoTitle": "Змінити фото профілю",
+    "changeNameTitle": "Змінити ім'я",
+    "changeDepartment": "Змінити відділення",
+    "selectPhoto": "Виберіть фото",
+    "cancelButton": "Відмінити",
+    "agreeButton": "Підтвердити",
+    "saveButton": "Зберегти",
+    "allowedFormats": "Дозволені тільки формати (jpg, jpeg, png, webp) та макс. розмір 2MB",
+    "myDepartment": "Відділення",
+    "city": "Місто",
+    "logoutTitle": "Ви впевнені, що хочете вийти з системи?"
+  },
+  "myProducts": {
+    "title": "Мої товари",
+    "products": "товарів",
+    "notFound": "Не знайдено",
+    "conditionNew": "Новий",
+    "conditionUsed": "Вживаний",
+    "deleteProductTitle": "Ви справді хочете видалити цей товар?"
+  },
+  "addProduct": {
+    "title": "Додати товар",
+    "photoText": "Фото товара (до 3)",
+    "addText": "Додати",
+    "firstPhotoText": "Перше фото — обкладинка товару (обов’язкове)",
+    "productTitleLabel": "Назва",
+    "productTitlePlaceholder": "Назва товара",
+    "productDescriptionLabel": "Опис",
+    "productDescriptionPlaceholder": "Опис товара",
+    "productPriceLabel": "Ціна",
+    "productPricePlaceholder": "Ціна товара",
+    "productConditionLabel": "Стан",
+    "productConditionNew" : "Новий",
+    "productConditionUsed": "Б/у",
+    "addButton": "Додати товар",
+    "productAddingText": "Продукт додається"
+  },
+  "editProduct": {
+    "title": "Змінити товар",
+    "buttonTitle":"Змінити"
+  },
+  "Statuses": {
+    "PCSText": "Товар успішно створений!",
+    "PCEText": "Товар не був створений!",
+    "PDSText": "Товар був видалений!",
+    "PDEText": "Товар не був видалений!",
+    "PESText": "Товар був змінений!",
+    "PEEText": "Товар не був змінений!"
+  },
+  "mainPage": {
+    "searchPlaceholder": "Пошук...",
+    "recommendationsTitle": "Продукти для вас",
+    "notFound": "Нічого не знайдено"
+  },
+  "productPage": {
+    "title": "Товар",
+    "notFound": "Товар не знайдено",
+    "condition": {
+      "new": "Новий",
+      "used": "Вживаний"
+    },
+    "description": "Опис",
+    "seller": "Продавець",
+    "online": "онлайн",
+    "offline": "офлайн",
+    "viewReviews": "Переглянути відгуки"
+  },
+  "myFavoriteProducts": {
+    "title": "Ваші улюблені товари",
+    "notFound": "Не знайдено жодного товару"
+  },
+  "searchPage": {
+    "title": "Результати пошуку",
+    "filters": "Фільтри",
+    "condition": "Стан",
+    "all": "Всі",
+    "new": "Новий",
+    "used": "Б/у",
+    "price": "Ціна",
+    "priceFrom": "Від",
+    "priceTo": "До",
+    "vector": "Схожість товарів",
+    "vectorFindLowSimilarity": "Знайти товари з низькою схожістю",
+    "vectorFindMediumSimilarity": "Знайти товари зі середньою схожістю",
+    "vectorFindHighSimilarity": "Знайти товари з високою схожістю",
+    "showAll": "Показати всі продукти",
+    "showNew": "Показати найновіші продукти"
+  },
+  "review": {
+    "product": {
+      "header": "Відгуки про товар",
+      "totalReviewsBased": "базується на ",
+      "reviews": " відгуках",
+      "leaveReview": "Залишити відгук",
+      "notFound": "Відгуки не знайдено"
+    }
+  },
+  "timer": {
+    "yearAgo": "рік тому",
+    "yearsAgo": "років тому",
+    "monthAgo": "місяць тому",
+    "monthsAgo": "місяців тому",
+    "weekAgo": "неділю тому",
+    "weeksAgo": "неділь тому",
+    "dayAgo": "день тому",
+    "daysAgo": "днів тому",
+    "hourAgo": "годину тому",
+    "hoursAgo": "годин тому",
+    "minuteAgo": "хвилину тому",
+    "minutesAgo": "хвилин тому",
+    "justNow": "тільки що"
+  },
+  "userPage": {
+    "header": "Сторінка Користувача",
+    "userProducts": "Товари користувача",
+    "blockUserTitle": "Ви впевнені, що хочете заблокувати цього користувача?",
+    "unBlockUserTitle": "Ви впевнені, що хочете розблокувати цього користувача?",
+    "agreeButton": "Підтвердити",
+    "cancelButton": "Відхилити"
+  },
+  "userPageReviews": {
+    "headerTitle": "Відгуки користувача"
+  },
+  "sellersSearchPage": {
+    "title": "Пошук продавців",
+    "searchPlaceholder": "Пошук продавців за email"
+  },
+  "chatWithUserPage": {
+    "titleNotFound" : "Не знайдено",
+    "online": "онлайн",
+    "offline": "офлайн",
+    "typeMessage": "Напишіть повідомлення...",
+    "userBlockedYou": "Користувач заблокував вас",
+    "youBlockedUser": "Ви заблокували цього користувача",
+    "unBlockUserTitle": "Розблокувати",
+    "typing": "пише..."
+  },
+  "chatsPage": {
+    "title": "Чати",
+    "notFound": "Чатів не знайдено"
+  },
+  "reportComponent": {
+    "title": "Створити скаргу",
+    "reason" : "Причина скарги",
+    "send": "Надіслати"
+  },
+  "aiCreateProduct": {
+    "descriptionPart1": "Будь ласка вкажіть в описі товару наступні параметри: ",
+    "descriptionPart2": "ціна,назву,стан,URL картинок (не обовязково).",
+    "descriptionPart3": "Напишіть щось про товар, щоб ШІ зміг згенерувати найбільш схожий за вашими параметрами товар",
+    "placeholder": "Опишіть товар...",
+    "generateButton": "Створити",
+    "generatingText": "Створення товару...",
+    "seeProduct": "Ви зможете побачити товар в розділі 'Мої товари'",
+    "view": "Переглянути"
+  }
+}

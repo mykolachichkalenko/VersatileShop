@@ -1,0 +1,102 @@
+.productReviewsReviews{
+    width: 1200px;
+    height: 750px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+}
+
+.productReviewsReviews::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+
+.productReviewsOwnerNameContainer{
+    max-width: 1000px;
+}
+
+
+@media (max-width: 1250px) {
+    .productReviewsReviews{
+        width: 1000px;
+    }
+    .productReviewsOwnerNameContainer{
+        max-width: 800px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .productReviewsReviews{
+        width: 700px;
+    }
+    .productReviewsOwnerNameContainer{
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 750px) {
+    .productReviewsReviews{
+        width: 600px;
+    }
+    .productReviewsOwnerNameContainer{
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 650px) {
+    .productReviewsReviews{
+        width: 500px;
+    }
+    .productReviewsOwnerNameContainer{
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 550px) {
+    .productReviewsReviews{
+        width: 400px;
+    }
+    .productReviewsOwnerNameContainer{
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 450px) {
+    .productReviewsReviews{
+        width: 310px;
+    }
+    .productReviewsOwnerNameContainer{
+        max-width: 110px;
+    }
+}
+
+
+@media (max-height: 1300px) {
+    .productReviewsReviews{
+        max-height: 600px;
+    }
+}
+
+@media (max-height: 1120px) {
+    .productReviewsReviews{
+        max-height: 500px;
+    }
+}
+
+@media (max-height: 1000px) {
+    .productReviewsReviews{
+        max-height: 400px;
+    }
+}
+
+@media (max-height: 900px) {
+    .productReviewsReviews{
+        max-height: 300px;
+    }
+}

@@ -1,0 +1,94 @@
+.chatWithUserMessages {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    gap: 20px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.chatWithUserMessages::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-height: 770px) {
+    .chatWithUserMessages {
+        height: 85%;
+    }
+}
+
+@media (max-height: 500px) {
+    .chatWithUserMessages {
+        height: 80%;
+    }
+}
+
+.chatWithUserScrollDownButton {
+    position: absolute;
+    right: 26vw;
+    bottom: 20vh;
+    width: 42px;
+    height: 42px;
+    border: none;
+    border-radius: 50%;
+    background: white;
+    color: black;
+    font-size: 22px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 20;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+.chatWithUserScrollDownButton:hover {
+    transition-duration: 0.3s;
+    background: #1f2937;
+    color: white;
+}
+
+@media (max-height: 1200px) {
+    .chatWithUserScrollDownButton{
+        bottom: 22vh;
+    }
+}
+
+@media (max-height: 770px) {
+    .chatWithUserScrollDownButton{
+        bottom: 29vh;
+    }
+    
+}
+
+@media (max-height: 500px) {
+    .chatWithUserScrollDownButton{
+        bottom: 35vh;
+    }
+}
+
+@media (max-width: 2000px) {
+    .chatWithUserScrollDownButton{
+        right: 20vw;
+    }
+}
+
+@media (max-width: 1500px) {
+    .chatWithUserScrollDownButton{
+        right: 15vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .chatWithUserScrollDownButton{
+        right: 5vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .chatWithUserScrollDownButton{
+        right: 1vw;
+    }
+}

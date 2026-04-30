@@ -1,0 +1,200 @@
+.searchPageFiltersContent{
+    position: fixed;
+    height: 600px;
+    width: 500px;
+    background-color: #f2f0f0;
+    top: 200px;
+    z-index: 700;
+    transform-origin: center;
+    border-radius: 12px;
+    border: 1px solid #d0d5dd;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width: 550px) {
+    .searchPageFiltersContent{
+        width: 300px;
+    }
+}
+@media (max-height: 1000px) {
+    .searchPageFiltersContent{
+        height: 500px;
+    }
+}
+@media (max-height: 850px) {
+    .searchPageFiltersContent{
+        top: 150px;
+        height: 400px;
+    }
+}
+@media (max-height: 700px) {
+    .searchPageFiltersContent{
+        top: 100px;
+    }
+}
+.searchPageFiltersContent[data-state="open"]{
+    animation: sp-dialog-in 160ms ease-out;
+}
+
+.searchPageFiltersContent[data-state="closed"]{
+    animation: sp-dialog-out 120ms ease-in;
+}
+
+@keyframes sp-dialog-in{
+    from{
+        opacity: 0;
+        transform: scale(0.96);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes sp-dialog-out{
+    from{
+        opacity: 1;
+        transform: scale(1);
+    }
+    to{
+        opacity: 0;
+        transform: scale(0.96);
+    }
+}
+
+
+.searchPageFiltersTitle{
+    font-size: 30px;
+    margin-top: 3px;
+    font-weight: bold;
+}
+
+
+.searchPageFiltersContentConditionTitle{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.searchPageFiltersContentCondition{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.searchPageFiltersContentPriceTitle{
+    font-size: 22px;
+    font-weight: 500;
+}
+.searchPageFiltersContentPrice{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.vectorDistanceComponentContainerTitle{
+    font-size: 22px;
+    font-weight: 500;
+}
+.vectorDistanceComponentContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.showNewProductsComponentContainer{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.showNewProductsComponentContainerShowText{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.searchPageFiltersContentButtons{
+    margin-top: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row;
+}
+
+@media (max-height: 1000px) {
+    .searchPageFiltersTitle{
+        margin-top: 0;
+        font-size: 25px;
+    }
+
+    .searchPageFiltersContentConditionTitle{
+        font-size: 18px;
+    }
+    .searchPageFiltersContentCondition{
+        margin-top: 0;
+    }
+
+    .searchPageFiltersContentPriceTitle{
+        font-size: 18px;
+    }
+    .searchPageFiltersContentPrice{
+        margin-top: 20px;
+    }
+
+    .vectorDistanceComponentContainerTitle{
+        font-size: 18px;
+    }
+    .vectorDistanceComponentContainer{
+        margin-top: 20px;
+    }
+
+    .showNewProductsComponentContainer{
+        margin-top: 20px;
+    }
+
+    .searchPageFiltersContentButtons{
+        margin-top: 60px;
+    }
+}
+
+@media (max-height: 850px) {
+    .searchPageFiltersTitle{
+        font-size: 20px;
+    }
+
+    .searchPageFiltersContentConditionTitle{
+        font-size: 15px;
+    }
+
+    .searchPageFiltersContentPriceTitle{
+        font-size: 15px;
+    }
+    .searchPageFiltersContentPrice{
+        margin-top: 10px;
+    }
+
+    .vectorDistanceComponentContainerTitle{
+        font-size: 15px;
+    }
+    .vectorDistanceComponentContainer{
+        margin-top: 10px;
+    }
+
+    .showNewProductsComponentContainer{
+        margin-top: 10px;
+    }
+
+    .searchPageFiltersContentButtons{
+        margin-top: 18px;
+    }
+}

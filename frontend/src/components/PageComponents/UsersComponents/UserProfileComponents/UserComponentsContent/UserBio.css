@@ -1,0 +1,48 @@
+.userBioContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.userBioAvatar {
+    position: relative;
+}
+
+.userBioRating {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.userBioName{
+    margin-top: 15px;
+    overflow: hidden;
+    max-height: 30px;
+    max-width: 800px;
+}
+
+@media (max-width: 1000px) {
+    .userBioName{
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 800px) {
+    .userBioName{
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 600px) {
+    .userBioName{
+        max-width: 310px;
+    }
+}
+
+.userBioButtonsGroup{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}

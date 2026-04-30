@@ -1,0 +1,92 @@
+.defaultComponentsContainer {
+    background: radial-gradient(circle at top, #d7e0ff 0%, #e4ecff 45%, #d7e0ff 100%);
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.defaultComponentsChildrenContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+
+.navBarContainer {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+
+    bottom: max(10px, env(safe-area-inset-bottom));
+
+    width: min(960px, 95vw);
+    height: 72px;
+
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+/* Кнопки в navbar */
+.navItemCircle {
+    width: 52px;
+    height: 52px;
+    border-radius: 999px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: transparent;
+    color: #8c8c8c;
+
+    cursor: pointer;
+    transition:
+            background-color 0.2s ease,
+            box-shadow 0.2s ease,
+            color 0.2s ease,
+            transform 0.2s ease;
+}
+
+.navItemCircle svg {
+    width: 24px;
+    height: 24px;
+    stroke-width: 2;
+}
+
+/* Активний елемент */
+.navItemCircle.navItemCircle--active {
+    background: #0056d8;
+    color: #ffffff;
+    box-shadow: 0 8px 20px rgba(0, 86, 216, 0.4);
+}
+
+@media (max-height: 700px) {
+    .navBarContainer {
+        height: 64px;
+        bottom: max(6px, env(safe-area-inset-bottom));
+    }
+
+    .navItemCircle {
+        width: 44px;
+        height: 44px;
+    }
+
+    .navItemCircle svg {
+        width: 20px;
+        height: 20px;
+    }
+}
