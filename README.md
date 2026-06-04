@@ -1,7 +1,6 @@
 # 🚀 VERSATILE SHOP
 
-**Versatile Shop** is a full-featured marketplace platform with Artificial Intelligence integration, built using **Java Spring WebFlux** and **React**. The project combines modern reactive architecture, real-time communication, semantic search, and AI-powered product generation.
-
+**Versatile Shop** is a full-featured marketplace platform with Artificial Intelligence integration, built using **Java Spring WebFlux** and **React**. 
 ---
 
 # 🛠 Tech Stack
