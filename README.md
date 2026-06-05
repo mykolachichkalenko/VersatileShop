@@ -135,3 +135,5 @@ The project demonstrates the implementation of:
 - Vector-based semantic search
 - Event-driven architecture
 - Modern frontend development with React and TypeScript
+
+video about the web-shop - https://youtu.be/bpdsgmlSb1o?si=zyRFsWAtDIUricIW
